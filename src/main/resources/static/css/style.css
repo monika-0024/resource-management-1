@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4c3; /* Light green background for a fresh look */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: #8bc34a; /* Darker green header for contrast */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+}
+
+main {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px; /* Adjust to move below the header */
+}
+
+h1 {
+    color: #333; /* Changed to dark color for better visibility */
+}
+
+h2 {
+    color: #4a5b23; /* Darker green color for better contrast */
+}
+
+.dashboard-container,
+.admin-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px; /* Maximum width for the admin panel */
+}
+
+.sidebar {
+    background-color: #4caf50; /* Green sidebar */
+    color: white;
+    padding: 1rem;
+    width: 200px; /* Width of the sidebar */
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 1rem;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-left: 1rem;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 1;
+    max-width: 300px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+form {
+    width: 100%;
+}
+
+form div {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+    text-align: left; /* Ensure labels are aligned to the left */
+    width: 100%;
+}
+
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #8bc34a;
+    color: white;
+    padding: .75rem 1.5rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px; /* Restrict the maximum width */
+}
+
+button:hover {
+    background-color: #7cb342;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: .75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #8bc34a; /* Table header background color */
+    color: white;
+}
