@@ -15,8 +15,9 @@
             <ul>
                 <li><a href="/ideator">Dashboard</a></li>
                 <li><a href="/ideator/projects">My Projects</a></li>
-                <li><a href="/ideator/newProject">Create New Project</a></li>
+                <li><a href="/projects/new">Create New Project</a></li>
                 <li><a href="/ideator/hackathons">Hackathons</a></li>
+                <li><a href="/ideator/feedback">Feedback</a></li>
                 <li><a th:href="@{/profile/{id}(id=${user.id})}">Profile</a></li>
 
                 <!-- Logout form -->
@@ -44,7 +45,7 @@
                 <div class="card">
                     <h2>Create New Project</h2>
                     <p>Start a new project and bring your ideas to life.</p>
-                    <a href="/ideator/newProject" class="btn">Create Project</a>
+                    <a href="/projects/new" class="btn">Create Project</a>
                 </div>
                 <div class="card">
                     <h2>Hackathons</h2>
